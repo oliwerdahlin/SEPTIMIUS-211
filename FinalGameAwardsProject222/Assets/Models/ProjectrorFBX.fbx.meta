@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: a2f4ba03d1d77d54eabab38bb980421f
+timeCreated: 1522680622
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Planet
+    100002: Planet1
+    100004: Planet2
+    100006: Planet3
+    100008: Planet4
+    100010: projector
+    100012: //RootNode
+    100014: pTorus1
+    100016: sun
+    400000: Planet
+    400002: Planet1
+    400004: Planet2
+    400006: Planet3
+    400008: Planet4
+    400010: projector
+    400012: //RootNode
+    400014: pTorus1
+    400016: sun
+    2100000: ProjektM
+    2100002: LjusVM
+    2100004: blueproM
+    2100006: planets1
+    2300000: Planet
+    2300002: Planet1
+    2300004: Planet2
+    2300006: Planet3
+    2300008: Planet4
+    2300010: projector
+    2300012: pTorus1
+    2300014: sun
+    3300000: Planet
+    3300002: Planet1
+    3300004: Planet2
+    3300006: Planet3
+    3300008: Planet4
+    3300010: projector
+    3300012: pTorus1
+    3300014: sun
+    4300000: projector
+    4300002: sun
+    4300004: Planet
+    4300006: Planet1
+    4300008: Planet2
+    4300010: Planet3
+    4300012: pTorus1
+    4300014: Planet4
+    6400000: Planet
+    6400002: Planet1
+    6400004: Planet2
+    6400006: Planet3
+    6400008: Planet4
+    6400010: projector
+    6400012: pTorus1
+    6400014: sun
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LjusVM
+    second: {fileID: 2100000, guid: 45e9287d976fe4847bbada8517b63ae0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ProjektM
+    second: {fileID: 2100000, guid: 511ef81e19c23374c97816feeb018c0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blueproM
+    second: {fileID: 2100000, guid: b98113bc27a70b14482e80f36917e6bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: planets1
+    second: {fileID: 2100000, guid: 328f7ec914a1fe8429b7686478297a41, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

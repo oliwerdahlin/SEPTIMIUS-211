@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalGameAwardsProject222", "FinalGameAwardsProject222.csproj", "{C30E20AA-5107-A1D5-9ED7-C46A0211D154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalGameAwardsProject222.Plugins", "FinalGameAwardsProject222.Plugins.csproj", "{9537400B-9DED-F424-560F-9CC0C13BF5E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalGameAwardsProject222.Editor", "FinalGameAwardsProject222.Editor.csproj", "{EF6B39D9-FD77-C59F-03E7-422EEE4C452F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalGameAwardsProject222.Editor.Plugins", "FinalGameAwardsProject222.Editor.Plugins.csproj", "{C42C8C52-C32E-28ED-59CD-F58EED77B1FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C30E20AA-5107-A1D5-9ED7-C46A0211D154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30E20AA-5107-A1D5-9ED7-C46A0211D154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30E20AA-5107-A1D5-9ED7-C46A0211D154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30E20AA-5107-A1D5-9ED7-C46A0211D154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9537400B-9DED-F424-560F-9CC0C13BF5E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9537400B-9DED-F424-560F-9CC0C13BF5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9537400B-9DED-F424-560F-9CC0C13BF5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9537400B-9DED-F424-560F-9CC0C13BF5E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF6B39D9-FD77-C59F-03E7-422EEE4C452F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF6B39D9-FD77-C59F-03E7-422EEE4C452F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF6B39D9-FD77-C59F-03E7-422EEE4C452F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF6B39D9-FD77-C59F-03E7-422EEE4C452F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C42C8C52-C32E-28ED-59CD-F58EED77B1FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C42C8C52-C32E-28ED-59CD-F58EED77B1FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C42C8C52-C32E-28ED-59CD-F58EED77B1FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C42C8C52-C32E-28ED-59CD-F58EED77B1FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
