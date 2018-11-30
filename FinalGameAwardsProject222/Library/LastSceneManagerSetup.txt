@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/GameLevels/Levels.unity
+- path: Assets/GameLevels/CorridorTest.unity
   isLoaded: 1
   isActive: 1
