@@ -16,6 +16,8 @@ TagManager:
   - JournalContent
   - MainSpawnPoint1
   - MainSpawnpoint2
+  - MainSpwnPoint2
+  - MainSpawnPoint2
   layers:
   - Default
   - TransparentFX
@@ -30,7 +32,7 @@ TagManager:
   - LaserEnd
   - LaserIgnore
   - Equipment
-  - 
+  - Effects
   - 
   - 
   - 
