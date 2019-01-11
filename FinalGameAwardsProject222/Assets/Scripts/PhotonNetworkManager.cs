@@ -6,6 +6,9 @@ using TMPro;
 
 public class PhotonNetworkManager : Photon.MonoBehaviour
 {
+
+    public bool test = false;
+
    // [SerializeField] private Text connectText;
     [SerializeField] private GameObject player;
     [SerializeField] private Transform[] spawnPoints;
@@ -42,6 +45,7 @@ public class PhotonNetworkManager : Photon.MonoBehaviour
     void Start ()
     {
         PhotonNetwork.ConnectUsingSettings("0.1");
+        roomOptions = new RoomOptions();
         roomOptions.MaxPlayers = 2;
         //photonView = GetComponent<PhotonView>();
 	}
@@ -50,7 +54,10 @@ public class PhotonNetworkManager : Photon.MonoBehaviour
     {
         Debug.Log("CONNECTED");
         //Join Room if it exists or create a room.
-       // PhotonNetwork.JoinOrCreateRoom("Test", null, null);
+        if(test)
+        {
+            PhotonNetwork.JoinOrCreateRoom("Test", null, null);
+        }      
     }
 
     public virtual void OnJoinedRoom()
@@ -62,8 +69,12 @@ public class PhotonNetworkManager : Photon.MonoBehaviour
         if (PhotonNetwork.playerList.Length == 1)
         {
             PhotonNetwork.Instantiate(player.name, spawnpoint1.position, spawnpoint1.rotation, 0);
-            menuScreen.SetActive(false);
-            FindObjectOfType<FinRoomManager>().GetPlayers1();
+            if(!test)
+            {
+                menuScreen.SetActive(false);
+                FindObjectOfType<FinRoomManager>().GetPlayers1();
+            }
+            
 
             // waitingScreen.SetActive(true);
 
@@ -72,14 +83,21 @@ public class PhotonNetworkManager : Photon.MonoBehaviour
         if (PhotonNetwork.playerList.Length == 2)
         {
             PhotonNetwork.Instantiate(player.name, spawnpoint2.position, spawnpoint2.rotation, 0);
-            menuScreen.SetActive(false);
-            //waitingScreen.SetActive(false);
-            FindObjectOfType<FinRoomManager>().GetPlayers1();
+            if(!test)
+            {
+                menuScreen.SetActive(false);
+                //waitingScreen.SetActive(false);
+                FindObjectOfType<FinRoomManager>().GetPlayers1();
+            }
+            
         }
 
         //Spawn player.
         //Disable lobby camera.
-        lobbyCamera.SetActive(false);
+        if(!test)
+        {
+            lobbyCamera.SetActive(false);
+        }
     }
 
    //private void Update()

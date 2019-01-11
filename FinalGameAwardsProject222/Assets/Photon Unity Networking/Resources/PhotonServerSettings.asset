@@ -67,4 +67,6 @@ MonoBehaviour:
   - EnableForceField
   - AddLogToMenu
   - RespawnPlayers
+  - LoadScene
+  - UnloadScene
   DisableAutoOpenWizard: 1

@@ -6,5 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/GameLevels/Levels.unity
-    guid: 9b3077eb1f7189245aac1ed2e34f8d71
+    path: Assets/GameLevels/LoadingTest.unity
+    guid: b3545114ce763a34ca9939ce4ab86961
+  - enabled: 1
+    path: Assets/GameLevels/LoadingTest2.unity
+    guid: 2c125fd70aebbd843acccd73f53ceedb
